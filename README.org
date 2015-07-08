@@ -1,16 +1,41 @@
+#+TITLE: haushalt
+#+CATEGORY: haushalt
+#+TAGS: review bug feature research design 
+#+TODO: TODO(t) STARTED(s!) | FIXED(f!) DONE(d!) 
+#+TODO: CANCELED(c@)
+#+STARTUP: overview 
+#+STARTUP: hidestars
+#+PROPERTY: Assigned_to_ALL kordano jeth64
 **** Overview
 
 A web service for organizing your domestic resources. 
 
 **** Usage
 
+#+BEGIN_SRC Bash
+lein run
+#+END_SRC
+
 **** TODOs
-
+***** TODO sketch input and finance-table view 			     :design:
+      DEADLINE: <2015-07-12 So>
+    :PROPERTIES:
+    :Created: [2015-07-06 Mo 13:21]
+    :Assigned_to: kordano
+    :END:
+***** DONE publish first dev blog post				     :design:
+      CLOSED: [2015-07-06 Mo 17:11] DEADLINE: <2015-07-09 Do>
+      - State "DONE"       from "STARTED"    [2015-07-06 Mo 17:11]
+      - State "STARTED"    from "TODO"       [2015-07-06 Mo 17:03]
+      CLOCK: [2015-07-06 Mo 17:03]--[2015-07-06 Mo 17:11] =>  0:08
+     :PROPERTIES:
+     :Created: [2015-07-06 Mo 13:25]
+     :Assigned_to: kordano
+     :END:
 **** References
-
 **** License
 
-Copyright © 2015 Konrad Kühne
+Copyright © 2015 Konrad Kühne & Judith Massa
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
